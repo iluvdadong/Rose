@@ -16,6 +16,9 @@
 		B419CB5E4BB7F77273B92C1F /* Pods_Rose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D396F1FEB08C65D5351EB4B8 /* Pods_Rose.framework */; };
 		DA571F951F4C5A31008EA81A /* LoginAndJoin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA571F941F4C5A31008EA81A /* LoginAndJoin.storyboard */; };
 		DA571F971F4C5A3F008EA81A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA571F961F4C5A3F008EA81A /* Home.storyboard */; };
+		DA571F991F4C5F08008EA81A /* Store.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA571F981F4C5F08008EA81A /* Store.storyboard */; };
+		DA571F9B1F4C5F15008EA81A /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA571F9A1F4C5F15008EA81A /* History.storyboard */; };
+		DA571F9D1F4C5F1D008EA81A /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA571F9C1F4C5F1D008EA81A /* Setting.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		D396F1FEB08C65D5351EB4B8 /* Pods_Rose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA571F941F4C5A31008EA81A /* LoginAndJoin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginAndJoin.storyboard; sourceTree = "<group>"; };
 		DA571F961F4C5A3F008EA81A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		DA571F981F4C5F08008EA81A /* Store.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Store.storyboard; sourceTree = "<group>"; };
+		DA571F9A1F4C5F15008EA81A /* History.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		DA571F9C1F4C5F1D008EA81A /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +82,11 @@
 			children = (
 				49BEACE81F4C57CA0041C454 /* LaunchScreen.storyboard */,
 				49BEACE31F4C57CA0041C454 /* Main.storyboard */,
+				DA571F9A1F4C5F15008EA81A /* History.storyboard */,
+				DA571F9C1F4C5F1D008EA81A /* Setting.storyboard */,
 				DA571F941F4C5A31008EA81A /* LoginAndJoin.storyboard */,
 				DA571F961F4C5A3F008EA81A /* Home.storyboard */,
+				DA571F981F4C5F08008EA81A /* Store.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -203,8 +212,11 @@
 				49BEACEA1F4C57CA0041C454 /* LaunchScreen.storyboard in Resources */,
 				499EE88B1F4C598D00F7DB04 /* GoogleService-Info.plist in Resources */,
 				49BEACE71F4C57CA0041C454 /* Assets.xcassets in Resources */,
+				DA571F9B1F4C5F15008EA81A /* History.storyboard in Resources */,
 				DA571F971F4C5A3F008EA81A /* Home.storyboard in Resources */,
+				DA571F9D1F4C5F1D008EA81A /* Setting.storyboard in Resources */,
 				49BEACE51F4C57CA0041C454 /* Main.storyboard in Resources */,
+				DA571F991F4C5F08008EA81A /* Store.storyboard in Resources */,
 				DA571F951F4C5A31008EA81A /* LoginAndJoin.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
